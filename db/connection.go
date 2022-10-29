@@ -1,11 +1,11 @@
 package db
 
 import (
-	"crud-go-postgres/configs"
 	"database/sql"
 	"fmt"
 
 	_ "github.com/lib/pq"
+	"github.com/matheusF23/crud-go-postgres/configs"
 )
 
 func OpenConnection() (*sql.DB, error) {

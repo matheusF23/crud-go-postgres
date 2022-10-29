@@ -1,4 +1,4 @@
-module crud-go-postgres
+module github.com/matheusF23/crud-go-postgres
 
 go 1.19
 
