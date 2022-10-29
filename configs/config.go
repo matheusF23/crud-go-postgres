@@ -27,7 +27,7 @@ func init() {
 	viper.SetDefault("database.port", "5432")
 }
 
-func load() error {
+func Load() error {
 	viper.SetConfigName("config")
 	viper.SetConfigType("toml")
 	viper.AddConfigPath(".")
